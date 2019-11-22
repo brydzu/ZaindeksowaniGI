@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Pierwszy post",
+    "gi": 44,
+    "date": "12-04.2019",
+    "body": "to jest przykladowa tresc na stronie o biernatkach",
+    "link": ""
+  },
+  {
+    "id": 2,
+    "name": "Przebudowa drogi gminnej",
+    "gi": 48,
+    "date": "13-05.2019",
+    "body": "to jest przykladowa tresc na stronie o przebudowie drogi gmiennej",
+    "link": "http://www.wadrozewielkie.pl/remont_drogi_w_biernatkach-107085-0-p105275.html"
+  },
+  {
+    "id": 3,
+    "name": "Trzeci post",
+    "gi": 66,
+    "date": "12-04.2019",
+    "body": "to jest przykladowa tresc trzeciego posta na stronie o biernatkach",
+    "link": ""
+  },
+  {
+    "id": 4,
+    "name": "Dożynki gminne",
+    "gi": 79,
+    "date": "08 września 2019",
+    "body": "Reprezentacja naszej wsi uzyskała drugie miejsce w konkursie na najpiękniejszy wieniec dożynkowy. Więcej informacji można znaleźć",
+    "link": "<a href='http://www.wadrozewielkie.pl/remont_drogi_w_biernatkach-107085-0-p105275.html' target=_blank/'>tutaj</a>"
+  },
+  {
+    "id": 3,
+    "name": "Trzeci post",
+    "gi": 11,
+    "date": "12-04.2019",
+    "body": "to jest przykladowa tresc trzeciego posta na stronie o biernatkach",
+    "link": ""
+  }
+]
