@@ -1,0 +1,2 @@
+# ZaindeksowaniGI
+Created with CodeSandbox
