@@ -2,21 +2,22 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import LandingPage from "./Landingpage";
-import Aktualnosci from "./Aktualnosci";
-import About from "./About";
-import Fundusz from "./List_of_products";
-import Historia from "./Historia";
-import Linki from "./Linki";
-import Produkt from "./Produkt";
-import FAQ from "./FAQ";
-import Klakulatory from "./Kalkulatory";
-import Blog from "./Blog";
+import Home from "./Home";
+//import Aktualnosci from "./Aktualnosci";
+//import About from "./About";
+//import Fundusz from "./List_of_products";
+//import Historia from "./Historia";
+//import Linki from "./Linki";
+//import Produkt from "./Produkt";
+//import FAQ from "./FAQ";
+//import Klakulatory from "./Kalkulatory";
+//import Blog from "./Blog";
 
 const Main = () => (
   <Switch>
     <Route exact path="/Home" component={Home} />
     <Route exact path="/" component={Home} />
-    <Route path="/Aktualnosci" component={Aktualnosci} />
+    {/*}  <Route path="/Aktualnosci" component={Aktualnosci} />
     <Route path="/About" component={About} />
     <Route path="/List_of_products" component={List_of_products} />
     <Route path="/Historia" component={Historia} />
@@ -24,7 +25,7 @@ const Main = () => (
     <Route path="/Produkt" component={Produkt} />
     <Route path="/FAQ" component={FAQ} />
     <Route path="/Kalkulatory" component={Kalkulatory} />
-    <Route path="/Blog" component={Blog} />
+<Route path="/Blog" component={Blog} /> */}
   </Switch>
 );
 

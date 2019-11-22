@@ -17,12 +17,12 @@ import {
   MDBContainer
 } from "mdbreact";
 
-import karuzela1 from "./Assets/karuzela1.jpg";
-import karuzela2 from "./Assets/karuzela2.jpg";
-import karuzela3 from "./Assets/karuzela3.jpg";
-import karuzela4 from "./Assets/karuzela4.jpg";
+//import karuzela1 from "./Assets/karuzela1.jpg";
+//import karuzela2 from "./Assets/karuzela2.jpg";
+//import karuzela3 from "./Assets/karuzela3.jpg";
+//import karuzela4 from "./Assets/karuzela4.jpg";
 
-import "./SideDrawer.css";
+//import "./SideDrawer.css";
 
 class App extends Component {
   render() {
@@ -31,7 +31,11 @@ class App extends Component {
         <div className="demo-big-content">
           <Layout>
             <Naglowek />
-            <Header title="Wieś Biernatki - Zapraszamy!" scroll  style={{ backgroundColor: "darkgray" }}>
+            <Header
+              title="Wieś Biernatki - Zapraszamy!"
+              scroll
+              style={{ backgroundColor: "darkgray" }}
+            >
               <Navigation>
                 <Link to="/Home">Strona główna</Link>
                 <Link to="/Aktualnosci">Aktualnosci</Link>
@@ -65,7 +69,7 @@ class App extends Component {
             </Drawer>
             <Content>
               <div className="page-content" />
-              <MDBContainer>
+              {/*} <MDBContainer>
                 <MDBCarousel
                   activeItem={1}
                   length={4}
@@ -132,7 +136,7 @@ class App extends Component {
                     </MDBCarouselItem>
                   </MDBCarouselInner>
                 </MDBCarousel>
-              </MDBContainer>
+    </MDBContainer>*/}
               <Main />
             </Content>
           </Layout>
