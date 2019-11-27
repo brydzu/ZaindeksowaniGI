@@ -32,13 +32,13 @@ class App extends Component {
           <Layout>
             <Naglowek />
             <Header
-              title="Wieś Biernatki - Zapraszamy!"
+              title="Zaindeksowani - Zapraszamy!"
               scroll
               style={{ backgroundColor: "darkgray" }}
             >
               <Navigation>
                 <Link to="/Home">Strona główna</Link>
-                <Link to="/Aktualnosci">Aktualnosci</Link>
+                <Link to="/List_of_products">Produkty</Link>
                 <Link to="/About">Informacje</Link>
                 <Link to="/Fundusz">Fundusz</Link>
                 <Link to="/Soltys">Soltys</Link>

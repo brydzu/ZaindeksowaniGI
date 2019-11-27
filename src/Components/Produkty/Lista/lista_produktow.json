@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nazwa": "Jabłko",
+    "kalorie": "12",
+    "IG": "15",
+    "GL": "2"
+  },
+  {
+    "id": 2,
+    "nazwa": "Banan",
+    "kalorie": "55",
+    "IG": "153",
+    "GL": "22"
+  },
+  {
+    "id": 3,
+    "nazwa": "Kotlet schabowy",
+    "kalorie": "211",
+    "IG": "115",
+    "GL": "56"
+  },
+  {
+    "id": 4,
+    "nazwa": "Kasza jaglana",
+    "kalorie": "12",
+    "IG": "5",
+    "GL": "12"
+  },
+  {
+    "id": 5,
+    "nazwa": "Mleko",
+    "kalorie": "23",
+    "IG": "99",
+    "GL": "88"
+  }
+]
