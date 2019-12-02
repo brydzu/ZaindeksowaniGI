@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nazwa": "Jajecznica",
+    "kategoria": "Śniadanie",
+    "skladniki": [ "3 jajka", "1 cebula", "margaryna", "sol", "pieprz" ],
+    "przepis": "kroimy cebule w kostke lub piorka, jak kto woli, podsmazamy na margarynie, a nastepnie dajemy jajka i smazymy tak dlugo jak chcemy",
+    "foto": "",
+    "GW": 123
+  },
+  {
+    "id": 2,
+    "nazwa": "Sałatka warzywna",
+    "kategoria": "Sałatka",
+    "skladniki": [ "3 jajka", "1 cebula", "margaryna", "sol", "pieprz" ],
+    "przepis": "kroimy cebule w kostke lub piorka, jak kto woli, podsmazamy na margarynie, a nastepnie dajemy jajka i smazymy tak dlugo jak chcemy",
+    "foto": "",
+    "GW": 234
+  },
+  {
+    "id": 3,
+    "nazwa": "Schabowy z ziemniakami",
+    "kategoria": "Obiad",
+    "skladniki": [ "3 jajka", "1 cebula", "margaryna", "sol", "pieprz" ],
+    "przepis": "kroimy cebule w kostke lub piorka, jak kto woli, podsmazamy na margarynie, a nastepnie dajemy jajka i smazymy tak dlugo jak chcemy",
+    "foto": "",
+    "GW": 345
+  },
+  {
+    "id": 4,
+    "nazwa": "Musli",
+    "kategoria": "Śniadanie",
+    "skladniki": [ "3 jajka", "1 cebula", "margaryna", "sol", "pieprz" ],
+    "przepis": "kroimy cebule w kostke lub piorka, jak kto woli, podsmazamy na margarynie, a nastepnie dajemy jajka i smazymy tak dlugo jak chcemy",
+    "foto": "",
+    "GW": 55
+  },
+  {
+    "id": 5,
+    "nazwa": "Pierogi",
+    "kategoria": "Obiad",
+    "skladniki": [ "3 jajka", "1 cebula", "margaryna", "sol", "pieprz" ],
+    "przepis": "kroimy cebule w kostke lub piorka, jak kto woli, podsmazamy na margarynie, a nastepnie dajemy jajka i smazymy tak dlugo jak chcemy",
+    "foto": "",
+    "GW": 666
+  }
+]

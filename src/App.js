@@ -4,6 +4,7 @@ import Naglowek from "./Components/Naglowek";
 
 import "./styles.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
+//import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
 import Main from "./Components/Main";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
@@ -39,6 +40,7 @@ class App extends Component {
               <Navigation>
                 <Link to="/Home">Strona główna</Link>
                 <Link to="/List_of_products">Produkty</Link>
+                <Link to="/Przepisy">Przeisy</Link>
                 <Link to="/About">Informacje</Link>
                 <Link to="/Fundusz">Fundusz</Link>
                 <Link to="/Soltys">Soltys</Link>
@@ -69,6 +71,8 @@ class App extends Component {
             </Drawer>
             <Content>
               <div className="page-content" />
+
+              {/*<przepis_karta />*/}
               {/*} <MDBContainer>
                 <MDBCarousel
                   activeItem={1}

@@ -19,4 +19,5 @@ import Main from "./Components/Main";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+//ReactDOM.render(<przepis_karta />, document.querySelector("#root"));
 //registerServiceWorker();
