@@ -41,10 +41,10 @@ class App extends Component {
                 <Link to="/Home">Strona główna</Link>
                 <Link to="/List_of_products">Produkty</Link>
                 <Link to="/Przepisy">Przeisy</Link>
-                <Link to="/About">Informacje</Link>
-                <Link to="/Fundusz">Fundusz</Link>
-                <Link to="/Soltys">Soltys</Link>
-                <Link to="/Mieszkancy">Mieszkancy</Link>
+                <Link to="/Linki">Linki</Link>
+                <Link to="/Informacje">Informacje</Link>
+                <Link to="/Insulinoopornosc">Insulinoopornosc</Link>
+                <Link to="/Kontakt">Kontakt</Link>
               </Navigation>
             </Header>
             <Drawer title="Title" className="side-drawer">
@@ -64,8 +64,8 @@ class App extends Component {
                 <Link className="side-drawer.open" to="/Soltys">
                   Soltys
                 </Link>
-                <Link className="side-drawer.open" to="/Mieszkancy">
-                  Mieszkancy
+                <Link className="side-drawer.open" to="/Kontakt">
+                  Kontakt
                 </Link>
               </Navigation>
             </Drawer>
