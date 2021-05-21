@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ListaPrzepisow from "../Assets/Data/przepisy.json";
 //import Mapa from "./Mapa";
 import { Card, CardTitle, CardText, CardActions, Button } from "react-mdl";
+import { Grid, FormRow } from "grid";
 
 class Przepisy extends Component {
   render() {
@@ -14,10 +15,11 @@ class Przepisy extends Component {
               <Card
                 shadow={0}
                 style={{
-                  width: "250px",
-                  height: "160px",
+                  width: "750px",
+                  height: "360px",
                   display: "block",
-                  margin: "auto"
+                  margin: "auto",
+                  marginBottom: "20px"
                 }}
               >
                 <CardTitle
