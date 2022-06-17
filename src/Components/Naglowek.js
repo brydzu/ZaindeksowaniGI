@@ -13,7 +13,14 @@ class Naglowek extends Component {
             style={{ alignItems: "rigth" }}
     /> */}
         </div>
-        <div className="textNaglowek" style={{ lineHeight: "2px" }}>
+        <div
+          className="textNaglowek"
+          style={
+            ({ lineHeight: "2px" },
+            { backgroundColor: "gray" },
+            { marginLeft: "50px" })
+          }
+        >
           <h4>Zaindeksowani</h4>
         </div>
       </div>
